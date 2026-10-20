@@ -3,8 +3,19 @@
   "name": "gaba-cinematic-editorial",
   "version": "0.1.0",
   "description": "GABA 소재를 시네마틱 라이프스타일 에디토리얼 캐러셀과 모바일 매거진 콘텐츠로 편집하는 전용 에이전트.",
-  "author": { "name": "GABA Magazine" },
-  "keywords": ["GABA", "magazine", "editorial", "carousel", "mobile", "research"],
+  "author": {
+    "name": "GABA Magazine"
+  },
+  "repository": "https://github.com/KRAdavid/editorial",
+  "homepage": "https://github.com/KRAdavid/editorial",
+  "keywords": [
+    "GABA",
+    "magazine",
+    "editorial",
+    "carousel",
+    "mobile",
+    "research"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,4 +30,3 @@
     }
   }
 }
-
