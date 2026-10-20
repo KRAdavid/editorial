@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gaba-cinematic-editorial",
+  "version": "0.1.0",
+  "description": "GABA 소재를 시네마틱 라이프스타일 에디토리얼 캐러셀과 모바일 매거진 콘텐츠로 편집하는 전용 에이전트.",
+  "author": { "name": "GABA Magazine" },
+  "keywords": ["GABA", "magazine", "editorial", "carousel", "mobile", "research"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "GABA 시네마틱 편집 에이전트",
+        "shortDescription": "GABA 소재를 매거진 카드로 편집",
+        "longDescription": "42magazine에서 학습한 시네마틱 라이프스타일 에디토리얼 캐러셀 구조를 GABA 과학 정보에 맞게 변환합니다. 소재를 받으면 모바일용 카드 흐름, 짧은 문장, 시네마틱 이미지 방향, 연구 도표, 출처와 사업자 공유 문구를 함께 제작합니다.",
+        "developerName": "GABA Magazine",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "GABA 소재를 시네마틱 에디토리얼 캐러셀과 모바일 매거진 콘텐츠로 제작해줘."
+      }
+    }
+  }
+}
+
