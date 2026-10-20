@@ -1,0 +1,11 @@
+interface:
+  display_name: "GABA 시네마틱 편집 에이전트"
+  short_description: "GABA 소재를 매거진 카드로 편집"
+  default_prompt: "GABA 소재를 시네마틱 에디토리얼 캐러셀과 모바일 매거진 콘텐츠로 제작해줘."
+  brand_color: "#0E7F89"
+policy:
+  allow_implicit_invocation: true
+  products:
+    - CHAT
+    - CODEX
+
